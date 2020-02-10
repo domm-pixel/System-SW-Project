@@ -25,15 +25,15 @@ out.print(sql);
 	System.out.println(e);
 }
 %>
-<HTML>
-<HEAD>
-</HEAD>
-<BODY>
+<html>
+<head>
+</head>
+<body>
 	<jsp:forward page="scheduleView.jsp">
 		<jsp:param name="year" value='<%=request.getParameter("startYear")%>' />
 		<jsp:param name="month"
 			value='<%=request.getParameter("startMonth")%>' />
 		<jsp:param name="day" value='<%=request.getParameter("startDay")%>' />
 	</jsp:forward>
-</BODY>
-</HTML>
+</body>
+</html>

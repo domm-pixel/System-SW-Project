@@ -166,7 +166,7 @@ function modify(){
 						<tr>
 							<td style="background-color: #ffffff" align="center">내용</td>
 							<td style="background-color: #ffffff; text-align:left;" colspan="2"><%=rs.getString("context")%></td>
-						</TR>
+						</tr>
 					</table>
 			<%
 				}
@@ -179,15 +179,15 @@ function modify(){
 				}
 			%>
 
-			<TR>
-				<TD align="center"><BR><%@ include
+			<tr>
+				<td align="center"><br><%@ include
 						file="scheduleInput.jsp"%></TD>
-			</TR>
+			</tr>
 		</table>
 		<A class="btn btn-primary form-control" href="<%=link_main%>">달력
 			보기</A>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
-</BODY>
-</HTML>
+</body>
+</html>

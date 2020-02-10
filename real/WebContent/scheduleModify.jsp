@@ -15,7 +15,7 @@ String month = request.getParameter("month");
 String day = request.getParameter("day");
 %>
 
-<HTML>
+<html>
 <head>
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
@@ -35,7 +35,7 @@ String day = request.getParameter("day");
 <title>schedule modify</title>
 </head>
 
-<BODY>
+<body>
 	<%
 		String userID = null; // 로그인이 된 사람들은 로그인정보를 담을 수 있도록한다
 		if (session.getAttribute("userID") != null) {
@@ -125,10 +125,10 @@ String day = request.getParameter("day");
 		<input type="hidden" name="startYear" value='<%=year%>'> <input
 			type="hidden" name="startMonth" value='<%=month%>'> <input
 			type="hidden" name="startDay" value='<%=day%>'>
-	</FORM>
+	</form>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script
 		src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-</BODY>
-</HTML>
+</body>
+</html>
